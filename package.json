@@ -1,0 +1,24 @@
+{
+  "name": "happier-site",
+  "version": "1.0.0",
+  "description": "Site for Information on Depression",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustubh3000/happier-site.git"
+  },
+  "author": "Kaustubh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaustubh3000/happier-site/issues"
+  },
+  "homepage": "https://github.com/kaustubh3000/happier-site#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
