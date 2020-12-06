@@ -113,9 +113,14 @@ footer{
     padding-top: 15px;
 }
 
-footer h3{
+footer h6{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
+}
+
+
+.list-unstyled a {
+    color: #0072b1;
 }
 
 footer hr{
@@ -123,7 +128,7 @@ footer hr{
     width: 90%;
 }
 
-/* NeoMorphic style Icons*/
+/* NeoMorphic style Icons */
 #contact-details{
     display: flex;
     justify-content: center;
@@ -134,7 +139,7 @@ footer hr{
     height: 50px;
     width: 50px;
     margin: 0 15px;
-    border-radius: 3px;
+    border-radius: 25px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -144,7 +149,7 @@ footer hr{
 
 footer #contact-details a{
     font-size: 22px;
-    color:  #690500;
+    color:  #0072b1;
     transition: transform 0.5s;
 
 }
@@ -168,7 +173,7 @@ a:hover .fa-twitter, a:focus .fa-twitter, a:active .fa-twitter{
 a:hover .fa-linkedin, a:focus .fa-linkedin, a:active .fa-linkedin{
     color: #0072b1;
 }
-a:hover .fa-github , a:focus .fa-github, a:active .fa-github {
-    color: #000;
+a:hover .fa-facebook , a:focus .fa-facebook, a:active .fa-facebook {
+    color: #3b5998;
 }
 
