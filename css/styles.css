@@ -11,10 +11,6 @@
     border-radius: 15px;
 }
 
-body {
-    background: url('../img/background.jpg');
-    background-repeat: repeat;
-}
 
 #main-content .row{
     background-color: white;
@@ -43,6 +39,9 @@ body {
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
+
+    background: url("../img/background.jpg") repeat;
+
     /* font-family: ; */
 }
 
