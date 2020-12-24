@@ -101,10 +101,10 @@ body{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #0072b1; /* Set a background color */
+    background-color: rgba(0, 114, 177, .8); /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     font-size: 2em; /* Increase font size */
     width: 50px;
     height: 50px;
