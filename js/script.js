@@ -49,7 +49,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-/* Hide Back to top button if window no scrolled for 2000 mili seconds */
+/* Hide Back to top button if window no scrolled for 2000 milli seconds */
 var timer = null;
 window.addEventListener('scroll', function() {
     if(timer !== null) {

@@ -11,6 +11,15 @@
     border-radius: 15px;
 }
 
+body {
+    background: url('../img/background.jpg');
+    background-repeat: repeat;
+}
+
+#main-content .row{
+    background-color: white;
+}
+
 
 .jumbotron{
     padding: 60px 30px 60px 30px;
