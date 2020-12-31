@@ -113,24 +113,46 @@ body{
     background-color: rgba(0, 0, 0, .8); /* Add a dark-grey background on hover */
 }
 
+/* FAQ */
+.faq-container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: #0072b1 solid 1px;
 
-
-
-
-/* photo */
-
-
-/* Carousel */
-
-.carousel-item{
-    height: 24rem;
+}
+.faq {
+    margin-bottom: 20px;
 }
 
-.carousel-item img{
-    position: relative;
-    width: auto;
-    min-height: auto;
+.faq-question {
+    font-weight: bold;
+    color: #0072b1;
+
 }
+
+.faq-answer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* family and friends */
+.faf-section {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: #0072b1 solid 1px;
+    border-radius: 3px;
+}
+
+.bold-heading {
+    font-weight: bold;
+    color: #0072b1;
+    font-size: large;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 
 /* Footer */
 
