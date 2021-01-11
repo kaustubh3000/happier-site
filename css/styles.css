@@ -159,6 +159,8 @@ body{
 footer{
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    background-color: rgba(0, 0, 0, .95);
+    color: white;
 
 }
 
@@ -174,7 +176,13 @@ footer h6{
 
 .list-unstyled a {
     color: #0072b1;
+    text-decoration: none;
 }
+
+.list-unstyled a:hover {
+    color: white;
+}
+
 
 footer hr{
     background-color: #00acee;
@@ -188,33 +196,28 @@ footer hr{
 }
 #contact-details a{
     display: flex;
-    /*background-color:  #FFF;*/
     height: 50px;
     width: 50px;
     margin: 0 15px;
-    border-radius: 25px;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.2),
-    6px 6px 10px -1px rgba(225, 225, 225, 0.7);
 }
 
 footer #contact-details a{
     font-size: 22px;
     color:  #0072b1;
     transition: transform 0.5s;
+    background-color: black;
+    border: 1px solid #0072b1;
 
 }
 
 #contact-details a:hover, #contact-details a:focus{
-    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-                inset 4px 4px 6px -1px rgba(225, 225, 225, 0.7),
-                0.5px 0.5px 0px rgba(225, 225, 225, 1),
-                0.5px 0.5px 0px rgba(225, 225, 225, 0.7);
-    
-    border: 1px solid rgba(0, 0, 0, 0);
-    transform: translateY(2px);
+    background-color: rgba(255, 255, 255, .8);
+
+
 }
 
 #contact-details a:hover i{
